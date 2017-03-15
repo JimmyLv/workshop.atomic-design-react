@@ -268,7 +268,7 @@ export default Contacts
 
 # Lifecycle
 
-[![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2017/03/1489566393031.png)](http://www.reactnativeexpress.com/lifecycle_api)
+[![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2017/03/1489566393031.png)](https://rawgit.com/rkendall/visible-react/master/demo/dist/demo.html)
 
 [slide]
 

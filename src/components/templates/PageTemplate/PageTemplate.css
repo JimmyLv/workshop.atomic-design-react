@@ -1,0 +1,23 @@
+.wrapper {
+    text-align: center;
+    margin: 2px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: solid 1px red;
+}
+
+.main {
+    margin-top: 100px;
+    border: solid 1px blue;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: solid 1px green;
+}

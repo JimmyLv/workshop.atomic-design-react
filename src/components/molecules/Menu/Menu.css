@@ -1,0 +1,9 @@
+.item {
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu {
+    display: inline-block;
+}

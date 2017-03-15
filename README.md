@@ -5,7 +5,9 @@
 - [x] update babel presets
 - [x] create page by templates
 - [ ] theme react components
-- [ ] add react learning resources
+- [x] add react learning resources
+- [x] add workshop scripts in [slides](./SLIDES.md)
+- [x] send out invitation calendar
 
 ## References
 

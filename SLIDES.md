@@ -34,12 +34,12 @@ yarn install && yarn start
 
 [slide]
 
-# 唠嗑唠嗑
+# 🐵 唠嗑唠嗑
 
 - 不讲什么：Webpack/ES6/Styling
-- 观念在先，实战为王
-- Pair Programming
-- Parking Lot
+- 观念在先，实战为王 🔨
+- Pair Programming 👬
+- Parking Lot 🅿️
 
 [slide]
 

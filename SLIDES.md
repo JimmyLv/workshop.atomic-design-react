@@ -13,13 +13,13 @@ theme: green
 
 # Atomic Design with React
 
-Total Time: _2 hours_ 
+Total Time: 2 hours 
 
-via JimmyLv
+via **JimmyLv**
 
 [slide]
 
-# 0. Env Setup
+# 0. 💻 Env Setup
 
 - [ ] reminder/reading material in invitation mail
 - [ ] join wechat group to share info easily
@@ -43,7 +43,7 @@ yarn install && yarn start
 
 [slide]
 
-# Agenda
+# ⏲️ Agenda
 
 1. Atomic Design (15 mins)
 2. React Basic: FP、JSX、V-DOM (25 mins)
@@ -53,7 +53,7 @@ yarn install && yarn start
 
 [slide]
 
-# 1. Atomic Design (15 mins)
+# 1. 🏗️ Atomic Design (15 mins)
 
 [slide]
 
@@ -65,13 +65,13 @@ demo: [Pattern Lab | Build Atomic Design Systems](http://patternlab.io/)
 
 [slide]
 
-# Practice 01
+# 🔨 Practice 01
 
 ![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2017/03/1489561356582.png)
 
 [slide]
 
-# 💡Rethink?
+# 💡 Rethink?
 
 - Presentational components
 - Container components
@@ -80,7 +80,7 @@ demo: [Pattern Lab | Build Atomic Design Systems](http://patternlab.io/)
 
 [slide]
 
-# 2. React Basic (25 mins)
+# 2. 📖 React Basic (25 mins)
 
 - JSX
 - VirtualDOM
@@ -88,7 +88,7 @@ demo: [Pattern Lab | Build Atomic Design Systems](http://patternlab.io/)
 
 [slide]
  
-# DOM Tree -> Functions 
+# 🌲 DOM Tree -> Functions 
 
 ```jsx
 
@@ -199,7 +199,7 @@ const DeleteAccount = (props) => (
 
 [slide]
 
-# 3. CDD (20 mins)
+# 3. 🏃 CDD (20 mins)
 
 “Visual TDD”: Component-Driven Development
 
@@ -223,7 +223,7 @@ const DeleteAccount = (props) => (
 
 [slide]
 
-# Practice 02
+# 🔨 Practice 02
 
 ![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2017/03/1489581902209.png)
 
@@ -235,7 +235,7 @@ const DeleteAccount = (props) => (
 
 [slide]
 
-# 4. State & Lifecycle (20 mins)
+# 4. 🐒 State & Lifecycle (20 mins)
 
 [slide]
 
@@ -278,7 +278,7 @@ export default Contacts
 
 [slide]
 
-# Practice 03
+# 🔨 Practice 03
 
 [Clock component](https://codepen.io/gaearon/pen/amqdNA?editors=0010): `new Date()`
 
@@ -293,10 +293,10 @@ export default Contacts
 
 [slide]
 
-# Homework
+# 📑 Homework
 
 [![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2017/03/1489581432456.png)](https://www.suncorp.com.au/insurance/car.html)
 
 [slide]
 
-# Q&A
+# ❓ Q&A

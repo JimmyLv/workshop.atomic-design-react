@@ -1,3 +1,3 @@
 export default ({ children }) => (
-    <code>{children}</code>
+  <code>{children}</code>
 )

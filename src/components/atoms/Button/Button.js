@@ -15,9 +15,9 @@ const BUTTONS = {
   },
 }
 
-const Button = ({type = 'default', onClick, children}) => (
+const Button = ({ type = 'default', onClick, children }) => (
   <button
-    style={{...BUTTONS[type]}}
+    style={{ ...BUTTONS[type] }}
     onClick={() => onClick ? onClick(children) : console.info(children)}
   >{children}</button>
 )

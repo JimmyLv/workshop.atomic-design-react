@@ -357,4 +357,4 @@ export default Contacts
 
 [slide]
 
-# ❓ Q&A
+# Thanks,  Q&A❓

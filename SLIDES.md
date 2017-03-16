@@ -36,7 +36,8 @@ yarn install && yarn start
 
 # 🐵 唠嗑唠嗑
 
-- 不讲什么：Webpack/ES6/Styling
+- 不讲什么：Webpack/ES6/Styling/Linter
+- 脚手架：`create-react-app` & `react-app-stencil`
 - 观念在先，实战为王 🔨
 - Pair Programming 👬
 - Parking Lot 🅿️
@@ -95,6 +96,10 @@ demo: [Pattern Lab | Build Atomic Design Systems](http://patternlab.io/)
 - JSX
 - VirtualDOM
 - Functional/Stateless Components
+
+[slide]
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2017/03/1489660500667.png)
 
 [slide]
  
@@ -285,7 +290,7 @@ const DeleteAccount = (props) => (
 
 - type:`primary` `default` `danger` `dashed`
 - color: `blue`, `white`, `red`, `border`
-- onClick:  `console.info()`, `alert()`
+- onClick: `console.info()`, `alert()`
 
 [slide]
 
@@ -330,17 +335,17 @@ export default Contacts
 
 [slide]
 
-# State vs Props
+# 🔨 Practice 03
 
-[![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2017/03/1489566510269.png)](https://facebook.github.io/react/docs/state-and-lifecycle.html#converting-a-function-to-a-class)
+[Clock component](https://codepen.io/gaearon/pen/amqdNA?editors=0010): `new Date().toLocaleTimeString(locales,options)` with timeZone
+
+<iframe height='265' scrolling='no' title='Hello World in React' src='//codepen.io/gaearon/embed/amqdNA/?height=265&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
 
 [slide]
 
-# 🔨 Practice 03
+# State vs Props
 
-[Clock component](https://codepen.io/gaearon/pen/amqdNA?editors=0010): `new Date()`
-
-<iframe height='265' scrolling='no' title='Hello World in React' src='//codepen.io/gaearon/embed/amqdNA/?height=265&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
+[![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2017/03/1489566510269.png)](https://facebook.github.io/react/docs/state-and-lifecycle.html#converting-a-function-to-a-class)
 
 [slide]
 

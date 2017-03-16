@@ -23,7 +23,7 @@ class Clock extends React.Component {
   render() {
     return (
       <div>
-        <h2>It's {this.state.date.toLocaleTimeString()} now.</h2>
+        <h2>It's {this.state.date.toLocaleTimeString('en-US', { timeZone: this.props.timezone || 'UTC' })} now.</h2>
       </div>
     )
   }

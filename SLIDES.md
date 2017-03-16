@@ -71,12 +71,22 @@ demo: [Pattern Lab | Build Atomic Design Systems](http://patternlab.io/)
 
 [slide]
 
+# 🌲 Components Tree
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2017/03/1489635396524.png)
+
+[slide]
+
 # 💡 Rethink?
 
 - Presentational components
 - Container components
 - Transactional components
 - Micro Front-Ends
+
+[slide]
+
+![](http://andrewhfarmer.com/react-ajax-best-practices/img/container-components.png)
 
 [slide]
 
@@ -163,7 +173,7 @@ function DeleteAccount() {
             children: 'Are you sure?'
           }
         }, {
-          type: DangerButton,
+          type: Button,
           props: {
             type: 'danger',
             children: 'Yep'
@@ -182,6 +192,41 @@ function DeleteAccount() {
 [slide]
 
 ![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2017/03/1489564943831.png)
+
+[slide]
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2017/03/1489635877830.png)
+
+[slide]
+
+# () => Virtual DOM Objects 
+
+```js
+function DeleteAccount() {
+    return ({
+      type: 'div',
+      props: {
+        children: [{
+          type: 'p',
+          props: {
+            children: 'Are you sure?'
+          }
+        }, {
+          type: Button,
+          props: {
+            type: 'danger',
+            children: 'Yep'
+          }
+        }, {
+          type: Button,
+          props: {
+            color: 'blue',
+            children: 'Cancel'
+          }
+       }]
+    })
+}
+```
 
 [slide]
 
@@ -209,6 +254,15 @@ const DeleteAccount = (props) => (
 
 [![](https://cdn-images-1.medium.com/max/800/1*YUVIg5jdB-pUUszWhTkgdw.gif)](https://blog.hichroma.com/component-driven-development-ce1109d56c8e#.68tcwmv7p)
 
+------
+
+1.  Focus development {:&.moveIn}
+2.  Increase UI coverage 
+3.  Target feedback
+4.  Build a component library
+5.  Parallelize development
+6.  Test visually
+
 [slide]
 
 ![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2017/03/1488610496651.png)
@@ -232,6 +286,10 @@ const DeleteAccount = (props) => (
 - type:`primary` `default` `danger` `dashed`
 - color: `blue`, `white`, `red`, `border`
 - onClick:  `console.info()`, `alert()`
+
+[slide]
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2017/03/1489635512260.png)
 
 [slide]
 

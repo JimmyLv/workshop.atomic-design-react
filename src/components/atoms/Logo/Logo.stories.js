@@ -1,10 +1,10 @@
 import React from 'react'
 import { storiesOf } from '@kadira/storybook'
-import Button from './Button'
+import Logo from './Logo'
 
-storiesOf('ATOM - Button', module)
-  .add('with text', () => (
-    <Button />
+storiesOf('ATOM - Logo', module)
+  .add('with icon', () => (
+    <Logo />
   ))
 
 //TODO: changed to with primary default dashed danger

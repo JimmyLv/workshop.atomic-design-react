@@ -6,5 +6,3 @@ storiesOf('ATOM - Logo', module)
   .add('with icon', () => (
     <Logo />
   ))
-
-//TODO: changed to with primary default dashed danger
